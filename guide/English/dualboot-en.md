@@ -3,7 +3,7 @@
 
 # Running Linux on the Xiaomi Pad 5
 
-## Dualbooting Android and Linux seamlessly
+## [←](install-en.md) Dualbooting Android and Linux seamlessly
 
 ### Prerequisites
 

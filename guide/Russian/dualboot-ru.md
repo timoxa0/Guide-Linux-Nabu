@@ -3,7 +3,7 @@
 
 # Windows на Xiaomi Pad 5
 
-## Двойная загрузка Android и Linux
+## [←](install-ru.md) Двойная загрузка Android и Linux
 
 ### Требования
 

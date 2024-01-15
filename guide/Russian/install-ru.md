@@ -3,7 +3,7 @@
 
 # Windows на Xiaomi Pad 5
 
-## Установка Linux
+## [←](prepare-ru.md) Установка Linux [→](dualboot-ru.md)
 
 ### Требования
 - Мозги

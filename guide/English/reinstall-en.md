@@ -3,7 +3,7 @@
 
 # Running Linux on the Xiaomi Pad 5
 
-## Reinstallation
+## Reinstallation [→](install-en.md)
 
 ### Reinstalling Linux if something goes wrong
 
