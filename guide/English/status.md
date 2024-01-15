@@ -8,25 +8,25 @@ Stable. Some components don't work.
 
 #### Features
 
-- [X] Suspend / Sleep Mode
-- [X] Audio
-- [X] Battery status
-- [X] Bluetooth
-- [X] Brightness
-- [x] Charging
-- [X] Display
-- [X] GPU
-- [X] Touchscreen
-- [X] UFS
-- [X] USB
-- [X] Wi-Fi
+- [x] Suspend / Sleep Mode
+- [x] Audio
+- [x] Battery status
+- [x] Bluetooth
+- [x] Brightness
+- [x] Slow charging
+- [ ] Fast charging
+- [x] Display
+- [x] GPU
+- [x] Touchscreen
+- [x] UFS
+- [x] USB
+- [x] Wi-Fi
+- [x] Xiaomi Keyboard support
 - [ ] Xiaomi Pen support
+- [ ] Xiaomi Pen charging support
 - [ ] Microphone
-- [ ] Miracast
 - [ ] Location
 - [ ] Flashlight
-- [ ] Xiaomi Pen charging support
-- [X] Xiaomi Keyboard support
 - [ ] Camera
 
 #### Sensors

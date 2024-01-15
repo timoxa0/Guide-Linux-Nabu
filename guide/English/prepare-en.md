@@ -11,7 +11,9 @@
 ### Prerequisites
 - Brain
 
-- [Recovery Image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Vbmeta image]()
+
+- [Recovery Image]()
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -32,7 +34,7 @@
 > Do not run all commands at once, execute them in order!
 
 #### Flash vbmeta_disabled.img via fastboot
-```cmd
+```sh
 fastboot flash vbmeta_ab <путь/к/vbmeta_disabled.img>
 ```
 

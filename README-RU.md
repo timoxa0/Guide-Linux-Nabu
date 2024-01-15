@@ -25,6 +25,7 @@
 - [Статус Проекта](guide/status-selection.md)
 
 - [Переустановка](guide/reinstalling-selection.md)
+
 ## Разработчики
 - 
 - 

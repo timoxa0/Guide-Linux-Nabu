@@ -3,33 +3,36 @@
 
 # Windows на Xiaomi Pad 5
 
-## Двойная загрузка Android и Windows
+## Двойная загрузка Android и Linux
 
 ### Требования
 
-- Android с root-правами и пропатченное Magisk'ом ядро Android
+- Мозги
 
-### Со стороны Windows
+- Android с root-правами
 
-- Установите [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
+- [boot-loader.tar.xz](https://mega.nz/folder/CVMGEAiB#7oazR3wpkKdAH2eZChtRTg) (рекомендуется Ubuntu-V0.91)
 
-- Переименуйте файл ядра Android в boot.img
+### Android side of Dual Boot
 
-- Переместите его в C:\ (C:\boot.img)
+1) Установите [`linuxswitch.apk`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.2/linuxswitch.apk) на устройство.
+2) Откройте программу и выдайте root-права
+3) Нажмите "Dump android images"
+4) Сохраните `android.boot.img` и `andoid.dtbo.img` на комьбтер из `/sdcard/linux/`
+5) Распакуйте `boot-loader.tar.xz`
+6) Достаньте из распакованного aрхива `boot_xiaomi-nabu_sda33.img` и, назвав его `linux.boot.img`, положите в `/sdcard/linux/`
+7) Перезагрузитесь в linux, нажав "Switch to Linux"
 
-- Запустите ярлык на рабочем столе чтобы перезагрузиться в Андроид 
 
-### Со стороны Android
+### Linux side of Dual boot
 
-- Установите на планшете  приложение [switchtowindows](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk)
+1) Скачайте [`s2a.zip`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.1/s2a.zip)
+2) Распакуйте `s2a.zip` в Linux
+3) Положите android.boot.img и andoid.dtbo.img в папку s2a
+4) Запустите терминал в папке с install.sh и выполните команду 
+    ```console
+    sudo ./install.sh
+    ```
+5) Перезагрузитесь в android, запустив "Switch2Android" и меню приложений
 
-- Создайте папку Windows в паияти Андроида
-  
-- Переименуйте UEFI файл в boot.img
-
-- Переместите его в созданную папку (/Память Андроид/Windows/boot.img)
-
-- Запустите приложение и предоставьте ему root-доступ
-
-- Нажмите "Switch to Windows" если вы хотите сменить систему на Windows
-
+## Готово!

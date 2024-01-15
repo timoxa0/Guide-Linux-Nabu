@@ -1,37 +1,37 @@
 <img align="right" src="../../assets/nabu.png" width="425" alt="Linux Running On A Xiaomi Pad 5">
 
 
-# Running Windows on the Xiaomi Pad 5
+# Running Linux on the Xiaomi Pad 5
 
-## Dualbooting Android and Windows seamlessly
+## Dualbooting Android and Linux seamlessly
 
 ### Prerequisites
 
 - Brain
 
-- Rooted Android and rooted Android boot backup
+- Rooted Android
 
-### Windows side of Dual Boot
-
-- Install [STA](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/StA_Installer_nabu.exe)
-
-- Rename your Android boot file to boot.img
-
-- Place your Android boot to C:\ (C:\boot.img)
-
-- Open shortcut on your desktop to switch to Android
+- [boot-loader.tar.xz](https://mega.nz/folder/CVMGEAiB#7oazR3wpkKdAH2eZChtRTg) (Ubuntu-V0.91 recommended)
 
 ### Android side of Dual Boot
 
-- Install [switchtowin.apk](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/dualboot/switchtowindows.apk) to device.
-  
-- Create folder Windows in Android storage
+1) Install [`linuxswitch.apk`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.2/linuxswitch.apk) to device.
+2) Open installed app and grant root access
+3) Tap "Dump android images"
+4) Move `android.boot.img` and `andoid.dtbo.img` to PC from `/sdcard/linux/`
+5) Rename linux boot to `linux.boot.img` and put it to `/sdcard/linux/`
+6) Now you can tap "Switch to Linux" to boot linux
 
-- Rename your UEFI file to boot.img
 
-- Place your UEFI file to created folder (/Android storage/Windows/boot.img)
+### Linux side of Dual boot
 
-- Start app and give root privileges.
+1) Download [`s2a.zip`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.1/s2a.zip)
+2) Unzip `s2a.zip` in linux
+3) Put `android.boot.img` and `andoid.dtbo.img` into `s2a` folder
+4) Install with command
+    ```console
+    sudo ./install.sh
+    ```
+5) Now you can reboot to android with Switch2Android app
 
-- Click "Switch to Windows" if you want to switch Windows.
-
+## Done!

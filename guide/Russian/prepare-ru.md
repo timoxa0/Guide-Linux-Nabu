@@ -8,8 +8,11 @@
 ### Подготовка устройства
 
 ### Требования:
+- Мозги
 
-- [Образ рекавери](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
+- [Образ vbmeta]()
+
+- [Образ рекавери]()
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
@@ -34,7 +37,7 @@
 > Следуйте инструкции с осторожностью! В случае ошибки велика вероятность нарушить работоспособность устройства!
 
 #### Прошейте vbmeta_disabled.img
-```cmd
+```sh
 fastboot flash vbmeta_ab <путь/к/vbmeta_disabled.img>
 ```
 
