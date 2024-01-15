@@ -27,6 +27,4 @@ fastboot flash linux <rootfs.img>
 fastboot reboot
 ```
 
-## Finished!
-
 ### [Last step: Setup Dualboot](dualboot-en.md)

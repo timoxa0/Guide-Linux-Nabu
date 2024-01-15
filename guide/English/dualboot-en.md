@@ -34,4 +34,4 @@
     ```
 5) Now you can reboot to android with Switch2Android app
 
-## Done!
+## Finished!

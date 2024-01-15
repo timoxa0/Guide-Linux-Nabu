@@ -27,6 +27,4 @@ fastboot flash linux <rootfs.img>
 fastboot reboot
 ```
 
-## Готово!
-
 ### [Последний шаг: Установка дуалбута](dualboot-ru.md)
