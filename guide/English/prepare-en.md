@@ -11,9 +11,9 @@
 ### Prerequisites
 - Brain
 
-- [Vbmeta image]()
+- [Vbmeta image](https://github.com/timoxa0/Guide-Linux-Nabu/releases/download/v0.0.1/vbmeta_disabled.img)
 
-- [Recovery Image]()
+- [Recovery Image](https://github.com/timoxa0/Guide-Linux-Nabu/releases/download/v0.0.1/orangefox.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

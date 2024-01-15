@@ -10,9 +10,9 @@
 ### Требования:
 - Мозги
 
-- [Образ vbmeta]()
+- [Образ vbmeta](https://github.com/timoxa0/Guide-Linux-Nabu/releases/download/v0.0.1/vbmeta_disabled.img)
 
-- [Образ рекавери]()
+- [Образ рекавери](https://github.com/timoxa0/Guide-Linux-Nabu/releases/download/v0.0.1/orangefox.img)
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

@@ -11,7 +11,7 @@
 ### Требования
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](../../../../releases/tag/1.0)
+- [gpt_both0.bin](https://github.com/timoxa0/Guide-Linux-Nabu/releases/download/v0.0.1/gpt_both0.bin)
 
 ### Восстановление GPT
 > Замените ```<gpt_both0.bin>``` путём к файлу `gpt_both0.bin`.
