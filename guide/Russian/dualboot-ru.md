@@ -13,7 +13,7 @@
 
 - [boot-loader.tar.xz](https://mega.nz/folder/CVMGEAiB#7oazR3wpkKdAH2eZChtRTg) (рекомендуется Ubuntu-V0.91)
 
-### Android side of Dual Boot
+### На стороне Android
 
 1) Установите [`linuxswitch.apk`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.2/linuxswitch.apk) на устройство.
 2) Откройте программу и выдайте root-права
@@ -24,7 +24,7 @@
 7) Перезагрузитесь в linux, нажав "Switch to Linux"
 
 
-### Linux side of Dual boot
+### На стороне Linux
 
 1) Скачайте [`s2a.zip`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.1/s2a.zip)
 2) Распакуйте `s2a.zip` в Linux
