@@ -85,7 +85,7 @@ mkpart esp fat32 XGB YGB
 #### Создайте раздел под linux
 - для модели на 128 GB: `mkpart linux ext4 YGB 126GB`
 - для модели на 256 GB: `mkpart linux ext4 YGB 254GB`
-> Самените Y на X+1 \
+> Замените Y на X+1 \
 > Если на андроид выделяем 16 GB, то команда выглядит так: \
 > `mkpart linux ext4 27.9GB 126GB` для модели на 128 GB \
 > `mkpart linux ext4 27.9GB 254GB` для модели на 256 GB
