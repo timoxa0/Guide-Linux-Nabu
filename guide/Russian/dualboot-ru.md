@@ -18,7 +18,7 @@
 1) Установите [`linuxswitch.apk`](https://github.com/timoxa0/Switch2Linux-Nabu/releases/download/v1.0.2/linuxswitch.apk) на устройство.
 2) Откройте программу и выдайте root-права
 3) Нажмите "Dump android images"
-4) Сохраните `android.boot.img` и `andoid.dtbo.img` на комьбтер из `/sdcard/linux/`
+4) Сохраните `android.boot.img` и `andoid.dtbo.img` на компьютер из `/sdcard/linux/`
 5) Распакуйте `boot-loader.tar.xz`
 6) Достаньте из распакованного aрхива `boot_xiaomi-nabu_sda33.img` и, назвав его `linux.boot.img`, положите в `/sdcard/linux/`
 7) Перезагрузитесь в linux, нажав "Switch to Linux"
