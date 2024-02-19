@@ -92,6 +92,16 @@ mkpart esp fat32 XGB YGB
 > `mkpart linux ext4 27.9GB 126GB` для модели на 128 GB \
 > `mkpart linux ext4 27.9GB 254GB` для модели на 256 GB
 
+#### Выйдите из parted
+```
+quit
+```
+
+#### Отформатируйте efi раздел
+```
+mkfs.fat -F32 -s1 /dev/block/platform/soc/1d84000.ufshc/by-name/esp -n ESPNABU
+```
+
 #### Сделайте резервную копию dtbo
 ```
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
