@@ -48,7 +48,7 @@ fastboot boot <linux-boot.img>
 ```sh
 fastboot flash dtbo <dtbo.img>
 ```
-> Замените <dtboboot.img> на путь к резервной копии dtbo
+> Замените <dtbo.img> на путь к резервной копии dtbo
 
 #### Перезагрузите планшет в android
 ```sh

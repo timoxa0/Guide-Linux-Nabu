@@ -48,7 +48,7 @@ fastboot boot <linux-boot.img>
 ```sh
 fastboot flash dtbo <dtbo.img>
 ```
-> Replace <dtboboot.img> with path to dtbo backup
+> Replace <dtbo.img> with path to dtbo backup
 
 #### Reboot tablet into android
 ```sh

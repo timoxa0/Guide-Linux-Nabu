@@ -94,12 +94,11 @@ mkpart esp fat32 XGB YGB
 
 #### Create dtbo backup
 ```
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
 ```
 > Backup will be saved to current directory
 
 #### Check if Android still starts
-just restart the tablet, and see if Android still works
-If isn't boot or looping or animation, use MIUI recovery or other recoveries for wiping data.
+Just restart the tablet, and see if Android still works. If isn't boot or looping or animation, wipe data in recovery.
 
 ### [Next step: Installing Linux](/guide/English/install-en.md)

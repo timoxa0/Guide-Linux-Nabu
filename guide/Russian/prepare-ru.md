@@ -32,7 +32,7 @@ fastboot flash vbmeta_ab <vbmeta_disabled.img>
 ```
 > Замените <vbmeta_disabled.img> на путь к vbmeta_disabled.img
 
-#### Запустите рекавери с компьютера при помощи команды
+#### Запустите ercovery с компьютера при помощи команды
 ```sh
 fastboot boot <recovery.img>
 ```
@@ -48,7 +48,7 @@ adb shell
 twrp unmount /data
 ```
 
-#### Разширьте таблицу разделов
+#### Раcширьте таблицу разделов
 ```sh
 sgdisk --resize-table 64 /dev/block/sda
 ```
@@ -94,11 +94,11 @@ mkpart esp fat32 XGB YGB
 
 #### Сделайте резервную копию dtbo
 ```
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
 ```
 > Резервная копия будет создана в текущей директории
 
 #### Проверьте, запускается ли Android
-Просто перезапустите планшет и убедитесь, что Android запускается Если система не запускается или вы получили цикличную перезагрузку, используйте режим восстановления MIUI или другой режим восстановления чтобы отформатировать раздел `data`.
+Просто перезапустите планшет и убедитесь, что Android запускается. Если система не запускается или вы получили бутлуп, отформатируйте `data` в recovery.
 
 ### [Следующий шаг: установка Linux](/guide/Russian/install-ru.md)
