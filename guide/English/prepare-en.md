@@ -99,7 +99,7 @@ quit
 
 #### Format created ESP patition
 ```
-mkfs.fat -F32 -s1 /dev/block/platform/soc/1d84000.ufshc/by-name/esp -n ESPNABU
+mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPNABU
 ```
 
 #### Exit from adb shell

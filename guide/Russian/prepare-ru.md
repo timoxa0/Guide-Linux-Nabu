@@ -99,7 +99,7 @@ quit
 
 #### Отформатируйте efi раздел
 ```
-mkfs.fat -F32 -s1 /dev/block/platform/soc/1d84000.ufshc/by-name/esp -n ESPNABU
+mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPNABU
 ```
 
 #### Выйдите из консоли recovery
