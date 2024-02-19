@@ -8,23 +8,56 @@
 ### Prerequisites
 - Brain
   
-- [rootfs.img.xz](https://mega.nz/folder/CVMGEAiB#7oazR3wpkKdAH2eZChtRTg) (Ubuntu-V0.91 recommended)
+- Rooted Android
+  
+- [Rootfs image](https://timoxa0.su/share/nabu/images) (ubuntu.img или arch.img)
+
+- [Kernel image](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu.boot.img)
+
+- [UEFI installer](https://timoxa0.su/share/nabu/uefi-installer-nabu.zip)
 
 ### Installation
 
-#### Extract `rootfs.img` from `rootfs.img.xz`
-
-#### Reboot to fastboot to start installing linux
+#### Reboot to fastboot to install installing linux
 
 #### Flash linux image via fastboot
 ```cmd
 fastboot flash linux <rootfs.img>
 ```
-> Replace <rootfs.img> with path to rootfs.img
+> Replace <rootfs.img> with path to ubuntu.img or arch.img
 
-#### Reboot to android to setup dualboot
+#### Reboot to bootloader
+```sh
+fastboot reboot bootloader
+```
+
+#### Erase dtbo
+```sh
+fastboot erase dtbo
+```
+
+#### Temporary boot linux from PC
+```sh
+fastboot boot <linux-boot.img>
+```
+> Replace <linux-boot.img> with path to kernel image
+
+#### Complete initial setup and reboot the tablet into bootloader
+
+#### Restore dtbo backup
+```sh
+fastboot flash dtbo <dtbo.img>
+```
+> Replace <dtboboot.img> with path to dtbo backup
+
+#### Reboot tablet into android
 ```sh
 fastboot reboot
 ```
 
-### [Last step: Setup Dualboot](dualboot-en.md)
+### Set up dualboot
+
+#### Flash UEFI installer via Magisk or recovery
+> After rebooting, a menu will appear in which you can navigate using the volume and power buttons
+
+### Готово!

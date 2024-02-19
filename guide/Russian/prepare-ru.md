@@ -28,13 +28,15 @@
 
 #### Прошейте vbmeta_disabled.img
 ```sh
-fastboot flash vbmeta_ab <путь/к/vbmeta_disabled.img>
+fastboot flash vbmeta_ab <vbmeta_disabled.img>
 ```
+> Замените <vbmeta_disabled.img> на путь к vbmeta_disabled.img
 
 #### Запустите рекавери с компьютера при помощи команды
 ```sh
 fastboot boot <recovery.img>
 ```
+> Замените <recovery.img> на путь к recovery.img
 
 #### Перейдите в консоль recovery
 ```sh
@@ -74,7 +76,7 @@ parted /dev/block/sda
 > Если на андроид выделяем 16 GB, то X = 10.9 + 16 = 26.9 \
 > Соответственно, команда выглядит так: `mkpart userdata ext4 10.9GB 26.9GB`
 
-#### Создайте раздел efi (на будушие)
+#### Создайте раздел efi
 ```
 mkpart esp fat32 XGB YGB
 ```
@@ -89,6 +91,12 @@ mkpart esp fat32 XGB YGB
 > Если на андроид выделяем 16 GB, то команда выглядит так: \
 > `mkpart linux ext4 27.9GB 126GB` для модели на 128 GB \
 > `mkpart linux ext4 27.9GB 254GB` для модели на 256 GB
+
+#### Сделайте резервную копию dtbo
+```
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
+```
+> Резервная копия будет создана в текущей директории
 
 #### Проверьте, запускается ли Android
 Просто перезапустите планшет и убедитесь, что Android запускается Если система не запускается или вы получили цикличную перезагрузку, используйте режим восстановления MIUI или другой режим восстановления чтобы отформатировать раздел `data`.

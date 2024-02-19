@@ -7,12 +7,16 @@
 
 ### Требования
 - Мозги
+
+- Android с root-правами
   
-- [rootfs.img.xz](https://mega.nz/folder/CVMGEAiB#7oazR3wpkKdAH2eZChtRTg) (рекомендуется Ubuntu-V0.91)
+- [Образ rootfs](https://timoxa0.su/share/nabu/images) (ubuntu.img или arch.img)
+
+- [Образ ядра](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu.boot.img)
+
+- [Установщик UEFI](https://timoxa0.su/share/nabu/uefi-installer-nabu.zip)
 
 ### Установка
-
-#### Извлеките `rootfs.img` из `rootfs.img.xz`
 
 #### Перезапустите планшет в fastboot для прошивки
 
@@ -20,11 +24,40 @@
 ```cmd
 fastboot flash linux <rootfs.img>
 ```
-> Замените <rootfs.img> на путь к rootfs.img
+> Замените <rootfs.img> на путь к ubuntu.img или arch.img
 
-#### Перезапуститесь в android для настройки дуалбута
+#### Перезапуститесь в bootloader
+```sh
+fastboot reboot bootloader
+```
+
+#### Очистите dtbo
+```sh
+fastboot erase dtbo
+```
+
+#### Временно запустите linux с ПК
+```sh
+fastboot boot <linux-boot.img>
+```
+> Замените <linux-boot.img> на путь к образу ядра
+
+#### Пройдите первоначальную настройку и перезагрузите планшет в bootloader
+
+#### Восстановите резервную копию dtbo
+```sh
+fastboot flash dtbo <dtbo.img>
+```
+> Замените <dtboboot.img> на путь к резервной копии dtbo
+
+#### Перезагрузите планшет в android
 ```sh
 fastboot reboot
 ```
 
-### [Последний шаг: Установка дуалбута](dualboot-ru.md)
+### Настройка dualboot
+
+#### Прошейте установщик UEFI через Magisk или recovery
+> После перезагрузки появляется меню, в котором вы можете ориентироваться, используя кнопки громкости и питания
+
+### Готово!

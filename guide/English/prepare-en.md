@@ -28,13 +28,15 @@
 
 #### Flash vbmeta_disabled.img via fastboot
 ```sh
-fastboot flash vbmeta_ab <путь/к/vbmeta_disabled.img>
+fastboot flash vbmeta_ab <vbmeta_disabled.img>
 ```
+> Replace <vbmeta_disabled.img> with path to vbmeta_disabled.img
 
 #### Boot Orange Fox recovery through PC
 ```sh
 fastboot boot <recovery.img>
 ```
+> Replace <recovery.img> with path to recovery.img
 
 #### Start ADB shell
 ```sh
@@ -74,7 +76,7 @@ parted /dev/block/sda
 > If userdata size is 16 GB, then X = 10.9 + 16 = 26.9 \
 > So command is `mkpart userdata ext4 10.9GB 26.9GB`
 
-#### Create efi partition (for future use)
+#### Create efi partition
 ```
 mkpart esp fat32 XGB YGB
 ```
@@ -89,6 +91,12 @@ mkpart esp fat32 XGB YGB
 > If userdata size is 16 GB, then command is \
 > `mkpart linux ext4 27.9GB 126GB` for 128 GB model \
 > `mkpart linux ext4 27.9GB 254GB` for 256 GB model
+
+#### Create dtbo backup
+```
+adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
+```
+> Backup will be saved to current directory
 
 #### Check if Android still starts
 just restart the tablet, and see if Android still works
