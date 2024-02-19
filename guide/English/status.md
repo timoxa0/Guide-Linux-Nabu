@@ -14,7 +14,7 @@ Stable. Some components don't work.
 - [x] Bluetooth
 - [x] Brightness
 - [x] Slow charging
-- [ ] Fast charging
+- [x] Fast charging (Fixed in latest kernel)
 - [x] Display
 - [x] GPU
 - [x] Touchscreen
@@ -33,6 +33,6 @@ Stable. Some components don't work.
 
 - [ ] Accelerometer
 - [ ] Gyroscope
-- [ ] Magnetometer
+- [x] Magnetometer (Fixed in latest kernel)
 - [ ] Proximity
 - [ ] Light sensor
