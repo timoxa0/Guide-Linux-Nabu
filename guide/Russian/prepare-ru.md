@@ -76,14 +76,6 @@ parted /dev/block/sda
 > Если на андроид выделяем 16 GB, то X = 10.9 + 16 = 26.9 \
 > Соответственно, команда выглядит так: `mkpart userdata ext4 10.9GB 26.9GB`
 
-#### Создайте раздел под linux
-- для модели на 128 GB: `mkpart linux ext4 YGB 126GB`
-- для модели на 256 GB: `mkpart linux ext4 YGB 254GB`
-> Замените Y на X+1 \
-> Если на андроид выделяем 16 GB, то команда выглядит так: \
-> `mkpart linux ext4 27.9GB 126GB` для модели на 128 GB \
-> `mkpart linux ext4 27.9GB 254GB` для модели на 256 GB
-
 #### Создайте раздел efi
 ```
 mkpart esp fat32 XGB YGB
@@ -92,6 +84,14 @@ mkpart esp fat32 XGB YGB
 > Y замените на X+1
 > Если на андроид выделяем 16 GB, то команда выглядит так: `mkpart esp fat32 26.9GB 27.9GB`
 
+#### Создайте раздел под linux
+- для модели на 128 GB: `mkpart linux ext4 YGB 126GB`
+- для модели на 256 GB: `mkpart linux ext4 YGB 254GB`
+> Замените Y на X+1 \
+> Если на андроид выделяем 16 GB, то команда выглядит так: \
+> `mkpart linux ext4 27.9GB 126GB` для модели на 128 GB \
+> `mkpart linux ext4 27.9GB 254GB` для модели на 256 GB
+
 #### Выйдите из parted
 ```
 quit
@@ -99,7 +99,7 @@ quit
 
 #### Отформатируйте efi раздел
 ```
-mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPNABU
+mkfs.fat -F32 -s1 /dev/block/sda32 -n ESPNABU
 ```
 
 #### Выйдите из консоли recovery

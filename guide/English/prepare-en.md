@@ -76,14 +76,6 @@ parted /dev/block/sda
 > If userdata size is 16 GB, then X = 10.9 + 16 = 26.9 \
 > So command is `mkpart userdata ext4 10.9GB 26.9GB`
 
-#### Create partition for linux
-- for 128 GB model: `mkpart linux ext4 YGB 126GB`
-- for 256 GB model: `mkpart linux ext4 YGB 254GB`
-> Replace Y with X+1 \
-> If userdata size is 16 GB, then command is \
-> `mkpart linux ext4 27.9GB 126GB` for 128 GB model \
-> `mkpart linux ext4 27.9GB 254GB` for 256 GB model
-
 #### Create efi partition
 ```
 mkpart esp fat32 XGB YGB
@@ -92,6 +84,14 @@ mkpart esp fat32 XGB YGB
 > Replace Y with X+1 \
 > If userdata size is 16 GB, then command is `mkpart esp fat32 26.9GB 27.9GB`
 
+#### Create partition for linux
+- for 128 GB model: `mkpart linux ext4 YGB 126GB`
+- for 256 GB model: `mkpart linux ext4 YGB 254GB`
+> Replace Y with X+1 \
+> If userdata size is 16 GB, then command is \
+> `mkpart linux ext4 27.9GB 126GB` for 128 GB model \
+> `mkpart linux ext4 27.9GB 254GB` for 256 GB model
+
 #### Quit from parted
 ```
 quit
@@ -99,10 +99,10 @@ quit
 
 #### Format created ESP patition
 ```
-mkfs.fat -F32 -s1 /dev/block/sda33 -n ESPNABU
+mkfs.fat -F32 -s1 /dev/block/sda32 -n ESPNABU
 ```
 
-#### Exit from adb shell
+#### Выйдите из консоли recovery
 ```
 exit
 ```
