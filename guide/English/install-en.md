@@ -3,7 +3,7 @@
 
 # Running Linux on the Xiaomi Pad 5
 
-## [←](prepare-en.md) Installing Linux [→](dualboot-en.md)
+## [←](prepare-en.md) Installing Linux
 
 ### Prerequisites
 - Brain
