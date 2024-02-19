@@ -102,6 +102,11 @@ quit
 mkfs.fat -F32 -s1 /dev/block/platform/soc/1d84000.ufshc/by-name/esp -n ESPNABU
 ```
 
+#### Exit from adb shell
+```
+exit
+```
+
 #### Create dtbo backup
 ```
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/dtbo$(getprop ro.boot.slot_suffix) of=/tmp/normal_dtbo.img"; adb pull /tmp/normal_dtbo.img
