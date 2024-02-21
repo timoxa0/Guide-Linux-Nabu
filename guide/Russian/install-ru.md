@@ -20,24 +20,24 @@
 
 #### Перезапустите планшет в fastboot для прошивки
 
-#### Прошейте образ linux через fastboot
-```cmd
+#### Прошейте образ Linux через fastboot
+```
 fastboot flash linux <rootfs.img>
 ```
 > Замените <rootfs.img> на путь к ubuntu.img или arch.img
 
 #### Перезапуститесь в bootloader
-```sh
+```
 fastboot reboot bootloader
 ```
 
 #### Очистите dtbo
-```sh
+```
 fastboot erase dtbo
 ```
 
-#### Временно запустите linux с ПК
-```sh
+#### Временно запустите Linux с ПК
+```
 fastboot boot <linux-boot.img>
 ```
 > Замените <linux-boot.img> на путь к образу ядра
@@ -45,13 +45,13 @@ fastboot boot <linux-boot.img>
 #### Пройдите первоначальную настройку и перезагрузите планшет в bootloader
 
 #### Восстановите резервную копию dtbo
-```sh
+```
 fastboot flash dtbo <dtbo.img>
 ```
 > Замените <dtbo.img> на путь к резервной копии dtbo
 
 #### Перезагрузите планшет в android
-```sh
+```
 fastboot reboot
 ```
 

@@ -18,26 +18,26 @@
 
 ### Installation
 
-#### Reboot to fastboot to install installing linux
+#### Reboot to fastboot to install Linux
 
-#### Flash linux image via fastboot
-```cmd
+#### Flash Linux image via fastboot
+```
 fastboot flash linux <rootfs.img>
 ```
 > Replace <rootfs.img> with path to ubuntu.img or arch.img
 
 #### Reboot to bootloader
-```sh
+```
 fastboot reboot bootloader
 ```
 
 #### Erase dtbo
-```sh
+```
 fastboot erase dtbo
 ```
 
-#### Temporary boot linux from PC
-```sh
+#### Temporary boot Linux from PC
+```
 fastboot boot <linux-boot.img>
 ```
 > Replace <linux-boot.img> with path to kernel image
@@ -45,7 +45,7 @@ fastboot boot <linux-boot.img>
 #### Complete initial setup and reboot the tablet into bootloader
 
 #### Restore dtbo backup
-```sh
+```
 fastboot flash dtbo <dtbo.img>
 ```
 > Replace <dtbo.img> with path to dtbo backup
