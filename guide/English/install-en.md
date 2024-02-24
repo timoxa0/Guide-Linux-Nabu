@@ -10,7 +10,7 @@
   
 - Rooted Android
   
-- [Rootfs image](https://timoxa0.su/share/nabu/images) (ubuntu.img или arch.img)
+- [Rootfs image](https://timoxa0.su/?dir=share/nabu/images) (ubuntu.img или arch.img)
 
 - [Kernel image](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu.boot.img)
 
