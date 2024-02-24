@@ -15,13 +15,15 @@
 
 ## Начнём
 
-- [Установка](guide/install-selection.md)
+- [Установка](guide/Russian/install-ru.md)
 
-- [Удаление](guide/uninstall-selection.md)
+- [Удаление](guide/Russian/uninstall-ru.md)
 
 ## Разное
 
-- [Статус Проекта](guide/status-selection.md)
+- [Статус Проекта](guide/Russian/status-ru.md)
 
-- [Переустановка](guide/reinstalling-selection.md)
+- [Переустановка](guide/Russian/reinstall-ru.md)
+
+- [Доступные дистрибутивы](guide/Russian/distros-ru.md)
 

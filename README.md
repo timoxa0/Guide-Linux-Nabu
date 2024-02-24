@@ -14,13 +14,15 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation](guide/install-selection.md)
+- [Installation](guide/English/install-en.md)
 
-- [Uninstallation](guide/uninstall-selection.md)
+- [Uninstallation](guide/English/uninstall-en.md)
 
 
 ## Miscellaneous
 
-- [Project Status](guide/status-selection.md)
+- [Project Status](guide/English/status-en.md)
 
-- [Reinstallation](guide/reinstalling-selection.md)
+- [Reinstallation](guide/English/reinstall-en.md)
+
+- [Available distros](guide/Russian/distros-en.md)

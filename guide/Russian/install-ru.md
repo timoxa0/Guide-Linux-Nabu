@@ -1,7 +1,6 @@
 ﻿﻿<img align="right" src="../../assets/nabu.png" width="425" alt="Linux Running On A Xiaomi Pad 5">
 
-
-# Windows на Xiaomi Pad 5
+# Linux на Xiaomi Pad 5
 
 ## [←](prepare-ru.md) Установка Linux
 
