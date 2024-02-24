@@ -9,9 +9,9 @@
   
 - Rooted Android
   
-- [Rootfs image](https://timoxa0.su/?dir=share/nabu/images) (ubuntu.img или arch.img)
+- [Rootfs image](./distros-en.md)
 
-- [Kernel image](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu.boot.img)
+- [Kernel image](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu-gc033672c6f54.boot.img)
 
 - [UEFI installer](https://timoxa0.su/share/nabu/uefi-installer-nabu.zip)
 
@@ -23,7 +23,7 @@
 ```
 fastboot flash linux <rootfs.img>
 ```
-> Replace <rootfs.img> with path to ubuntu.img or arch.img
+> Replace <rootfs.img> with path to rootfs image
 
 #### Reboot to bootloader
 ```

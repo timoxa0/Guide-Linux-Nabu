@@ -9,9 +9,9 @@
 
 - Android с root-правами
   
-- [Образ rootfs](https://timoxa0.su/?dir=share/nabu/images) (ubuntu.img или arch.img)
+- [Образ rootfs](./distros-ru.md)
 
-- [Образ ядра](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu.boot.img)
+- [Образ ядра](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu-gc033672c6f54.boot.img)
 
 - [Установщик UEFI](https://timoxa0.su/share/nabu/uefi-installer-nabu.zip)
 
@@ -23,7 +23,7 @@
 ```
 fastboot flash linux <rootfs.img>
 ```
-> Замените <rootfs.img> на путь к ubuntu.img или arch.img
+> Замените <rootfs.img> на путь к образу rootfs
 
 #### Перезапуститесь в bootloader
 ```
