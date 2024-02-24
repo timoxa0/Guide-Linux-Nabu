@@ -25,4 +25,4 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Reinstallation](guide/English/reinstall-en.md)
 
-- [Available distros](guide/Russian/distros-en.md)
+- [Available distros](guide/English/distros-en.md)
