@@ -14,7 +14,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Get Started
 
-- [Installation](guide/English/install-en.md)
+- [Installation](guide/English/prepare-en.md)
 
 - [Uninstallation](guide/English/uninstall-en.md)
 

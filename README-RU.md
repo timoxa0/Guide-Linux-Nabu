@@ -15,7 +15,7 @@
 
 ## Начнём
 
-- [Установка](guide/Russian/install-ru.md)
+- [Установка](guide/Russian/prepare-ru.md)
 
 - [Удаление](guide/Russian/uninstall-ru.md)
 
