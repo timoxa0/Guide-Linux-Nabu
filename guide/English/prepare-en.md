@@ -26,6 +26,8 @@
 >
 > Do not run all commands at once, execute them in order!
 
+#### Reboot tablet to bootloader
+
 #### Flash vbmeta_disabled.img via fastboot
 ```
 fastboot flash vbmeta_ab <vbmeta_disabled.img>

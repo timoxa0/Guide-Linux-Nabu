@@ -26,6 +26,8 @@
 >
 > Не запускайте все команды сразу, выполняйте их по очереди!
 
+#### Перезагрузите планшет в fastboot
+
 #### Прошейте vbmeta_disabled.img
 ```
 fastboot flash vbmeta_ab <vbmeta_disabled.img>
