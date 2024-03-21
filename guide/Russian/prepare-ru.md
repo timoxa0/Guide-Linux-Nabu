@@ -47,7 +47,8 @@ adb shell partition [размер раздела под linux в GB]
 
 #### Сделайте резервную копию dtbo
 ```
-adb shell backupdtbo; adb pull /tmp/dtbo.img
+adb shell backupdtbo
+adb pull /tmp/dtbo.img
 ```
 > Резервная копия будет создана в текущей директории
 
