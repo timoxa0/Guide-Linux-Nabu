@@ -47,7 +47,8 @@ adb shell partition [TARGET LINUX SIZE IN GB]
 
 #### Create dtbo backup
 ```
-adb shell backupdtbo; adb pull /tmp/dtbo.img
+adb shell backupdtbo
+adb pull /tmp/dtbo.img
 ```
 > Backup will be saved to current directory
 
