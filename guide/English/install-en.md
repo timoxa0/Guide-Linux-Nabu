@@ -40,6 +40,7 @@ fastboot erase dtbo
 fastboot boot <linux-boot.img>
 ```
 > Replace <linux-boot.img> with path to kernel image
+> Do dot disconnect tablet from pc until it boots to initial setup
 
 #### Complete initial setup and reboot the tablet into bootloader
 
