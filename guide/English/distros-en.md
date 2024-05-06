@@ -4,8 +4,8 @@
 
 #### Available distros
 
-- [Ubuntu 23.10](https://timoxa0.su/share/nabu/images/ubuntu.img.xz)
+- [Ubuntu 23.10](https://timoxa0.su/share/nabu/images/v1/ubuntu.img.xz)
 
-- [Arch Linux ARM](https://timoxa0.su/share/nabu/images/arch.img.xz)
+- [Arch Linux ARM](https://timoxa0.su/share/nabu/images/v1/arch.img.xz)
 
-- [Fedora 39](https://timoxa0.su/share/nabu/images/fedora.img.xz)
+- [Fedora 39](https://timoxa0.su/share/nabu/images/v1/fedora.img.xz)

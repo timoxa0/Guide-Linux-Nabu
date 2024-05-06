@@ -8,9 +8,9 @@
 ### Требования:
 - Мозги
 
-- [Образ vbmeta](https://timoxa0.su/share/nabu/vbmeta_disabled.img)
+- [Образ vbmeta](https://timoxa0.su/share/nabu/manual/vbmeta_disabled.img)
 
-- [Образ рекавери](https://timoxa0.su/share/nabu/orangefox.img)
+- [Образ рекавери](https://timoxa0.su/share/nabu/manual/orangefox.img)
 
 - [ADB и Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

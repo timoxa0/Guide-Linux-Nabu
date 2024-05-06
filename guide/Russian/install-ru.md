@@ -11,9 +11,9 @@
   
 - [Образ rootfs](./distros-ru.md)
 
-- [Образ ядра](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu-gc033672c6f54.boot.img)
+- [Образ ядра](https://timoxa0.su/share/nabu/images/v1/linux-6.1.10-nabu-gc033672c6f54.boot.img)
 
-- [Установщик UEFI](https://timoxa0.su/share/nabu/uefi-installer-nabu.zip)
+- [Установщик UEFI](https://timoxa0.su/share/nabu/manual/uefi-installer-nabu.zip)
 
 ### Установка
 

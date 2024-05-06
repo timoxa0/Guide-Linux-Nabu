@@ -8,9 +8,9 @@
 ### Prerequisites
 - Brain
 
-- [Vbmeta image](https://timoxa0.su/share/nabu/vbmeta_disabled.img)
+- [Vbmeta image](https://timoxa0.su/share/nabu/manual/vbmeta_disabled.img)
 
-- [Recovery Image](https://timoxa0.su/share/nabu/orangefox.img)
+- [Recovery Image](https://timoxa0.su/share/nabu/manual/orangefox.img)
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 

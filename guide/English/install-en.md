@@ -11,9 +11,9 @@
   
 - [Rootfs image](./distros-en.md)
 
-- [Kernel image](https://timoxa0.su/share/nabu/images/linux-6.1.10-nabu-gc033672c6f54.boot.img)
+- [Kernel image](https://timoxa0.su/share/nabu/images/v1/linux-6.1.10-nabu-gc033672c6f54.boot.img)
 
-- [UEFI installer](https://timoxa0.su/share/nabu/uefi-installer-nabu.zip)
+- [UEFI installer](https://timoxa0.su/share/nabu/manual/uefi-installer-nabu.zip)
 
 ### Installation
 
@@ -60,4 +60,4 @@ fastboot reboot
 #### Flash UEFI installer via Magisk or recovery
 > After rebooting, a menu will appear in which you can navigate using the volume and power buttons
 
-### Готово!
+### Done!
