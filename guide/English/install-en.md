@@ -2,62 +2,29 @@
 
 # Running Linux on the Xiaomi Pad 5
 
-## [←](prepare-en.md) Installing Linux
+## [←](./prepare-en.md) Installing Linux
 
 ### Prerequisites
 - Brain
   
-- Rooted Android
-  
-- [Rootfs image](./distros-en.md)
+- [Rootfs image](https://timoxa0.su/?dir=share/nabu/images/v2)
 
-- [Kernel image](https://timoxa0.su/share/nabu/images/v1/linux-6.1.10-nabu-gc033672c6f54.boot.img)
-
-- [UEFI installer](https://timoxa0.su/share/nabu/manual/uefi-installer-nabu.zip)
+### Notes:
+> [!Warning]\
+> All your data will be erased! Backup now if needed.
 
 ### Installation
 
-#### Reboot to fastboot to install Linux
+1. #### Download and extract rootfs image
 
-#### Flash Linux image via fastboot
-```
-fastboot flash linux <rootfs.img>
-```
-> Replace <rootfs.img> with path to rootfs image
+2. #### Reboot device to bootloader
 
-#### Reboot to bootloader
+3. #### Flash image to device using deployer
 ```
-fastboot reboot bootloader
+lon-deployer /path/to/rootfs.img
 ```
+Deployer will ask you for username, password and linux partition size
 
-#### Erase dtbo
-```
-fastboot erase dtbo
-```
-
-#### Temporary boot Linux from PC
-```
-fastboot boot <linux-boot.img>
-```
-> Replace <linux-boot.img> with path to kernel image
-> Do dot disconnect tablet from pc until it boots to initial setup
-
-#### Complete initial setup and reboot the tablet into bootloader
-
-#### Restore dtbo backup
-```
-fastboot flash dtbo <dtbo.img>
-```
-> Replace <dtbo.img> with path to dtbo backup
-
-#### Reboot tablet into android
-```sh
-fastboot reboot
-```
-
-### Set up dualboot
-
-#### Flash UEFI installer via Magisk or recovery
-> After rebooting, a menu will appear in which you can navigate using the volume and power buttons
+> After the final reboot, a menu will appear that you can navigate using the volume and power buttons
 
 ### Done!

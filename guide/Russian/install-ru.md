@@ -2,62 +2,29 @@
 
 # Linux на Xiaomi Pad 5
 
-## [←](prepare-ru.md) Установка Linux
+## [←](./prepare-rn.md) Установка Linux
 
 ### Требования
 - Мозги
-
-- Android с root-правами
   
-- [Образ rootfs](./distros-ru.md)
+- [Образ Rootfs](https://timoxa0.su/?dir=share/nabu/images/v2)
 
-- [Образ ядра](https://timoxa0.su/share/nabu/images/v1/linux-6.1.10-nabu-gc033672c6f54.boot.img)
-
-- [Установщик UEFI](https://timoxa0.su/share/nabu/manual/uefi-installer-nabu.zip)
+### Примечание:
+> [!Warning]\
+> Все пользовательские файлы будут стерты! Создайте резервную копию, если это необходимо.
 
 ### Установка
 
-#### Перезапустите планшет в fastboot для прошивки
+1. #### Скачайте и распакуйте образ rootfs
 
-#### Прошейте образ Linux через fastboot
-```
-fastboot flash linux <rootfs.img>
-```
-> Замените <rootfs.img> на путь к образу rootfs
+2. #### Перезагрузите планшет в bootloader
 
-#### Перезапуститесь в bootloader
+3. #### Прошейте образ используя установщик
 ```
-fastboot reboot bootloader
+lon-deployer /путь/к/rootfs.img
 ```
+Установщик спросит у вас имя пользователя, пароль и размер раздела для Linux
 
-#### Очистите dtbo
-```
-fastboot erase dtbo
-```
-
-#### Временно запустите Linux с ПК
-```
-fastboot boot <linux-boot.img>
-```
-> Замените <linux-boot.img> на путь к образу ядра
-> Не отключайте планшет от компьютера, пока он не загрузится.
-
-#### Пройдите первоначальную настройку и перезагрузите планшет в bootloader
-
-#### Восстановите резервную копию dtbo
-```
-fastboot flash dtbo <dtbo.img>
-```
-> Замените <dtbo.img> на путь к резервной копии dtbo
-
-#### Перезагрузите планшет в android
-```
-fastboot reboot
-```
-
-### Настройка dualboot
-
-#### Прошейте установщик UEFI через Magisk или recovery
 > После перезагрузки появляется меню, в котором вы можете ориентироваться, используя кнопки громкости и питания
 
 ### Готово!
