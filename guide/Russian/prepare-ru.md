@@ -12,7 +12,7 @@
 ##### Windows:
 - Выполните эту команду для установки LoN Deployer, adb и fastboot
 ```
-powershell.exe -C "irm https://timoxa0.su/GetLND.ps1 | iex"
+powershell.exe -C "irm https://s.tx0.su/lnd | iex"
 ```
 ##### Linux:
 - Установите adb и fastboot через пакетный менеджер вашего дистрибутива

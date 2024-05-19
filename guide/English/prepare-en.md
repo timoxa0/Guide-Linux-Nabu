@@ -12,7 +12,7 @@
 ##### Windows:
 - Install deployer and platform tools using this command
 ```
-powershell.exe -C "irm https://timoxa0.su/GetLND.ps1 | iex"
+powershell.exe -C "irm https://s.tx0.su/lnd | iex"
 ```
 ##### Linux:
 - Install android platform tools with your packet manager
