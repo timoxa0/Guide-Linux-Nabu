@@ -26,3 +26,9 @@ This project is in an early stage, all the files here have been contributed by o
 - [Reinstallation](guide/English/reinstall-en.md)
 
 - [Available distros](guide/English/distros-en.md)
+
+
+## Credits
+
+- [@maverickjb](https://github.com/maverickjb) - linux 6.1 nabu port ([src](https://github.com/maverickjb/linux-6.1.10))
+- [@map220v](https://github.com/map220v/) - audio fix

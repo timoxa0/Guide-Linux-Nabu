@@ -27,3 +27,9 @@
 
 - [Доступные дистрибутивы](guide/Russian/distros-ru.md)
 
+
+
+## Благодарности
+
+- [@maverickjb](https://github.com/maverickjb) - Порт ядра linux 6.1 для nabu ([src](https://github.com/maverickjb/linux-6.1.10))
+- [@map220v](https://github.com/map220v/) - Фикс для звука
