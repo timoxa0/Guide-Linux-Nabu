@@ -2,11 +2,11 @@
 
 # Linux на Xiaomi Pad 5
 
-## [←](./prepare-rn.md) Установка Linux
+## [←](./prepare-ru.md) Установка Linux
 
 ### Требования
 - Мозги
-  
+
 - [Образ Rootfs](https://timoxa0.su/?dir=share/nabu/images/v2)
 
 ### Примечание:
