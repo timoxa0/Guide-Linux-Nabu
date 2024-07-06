@@ -33,3 +33,4 @@
 
 - [@maverickjb](https://github.com/maverickjb) - Порт ядра linux 6.1 для nabu ([src](https://github.com/maverickjb/linux-6.1.10))
 - [@map220v](https://github.com/map220v/) - Фикс для звука
+- [@edk2-porting](https://github.com/edk2-porting) - порт edk2 UEFI

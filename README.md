@@ -2,7 +2,7 @@
 
 
 # Running Linux on the Xiaomi Pad 5
-## Language 
+## Language
 [Русский](README-RU.md) | English
 
 ## ⚠️ Warning
@@ -32,3 +32,4 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [@maverickjb](https://github.com/maverickjb) - linux 6.1 nabu port ([src](https://github.com/maverickjb/linux-6.1.10))
 - [@map220v](https://github.com/map220v/) - audio fix
+- [@edk2-porting](https://github.com/edk2-porting) - edk2 UEFI port
