@@ -10,19 +10,8 @@ If you want to uninstall linux this is used instead of deleting partitions manua
 
 If you want to relock your bootloader you'll need your partition table to be stock.
 
-### Prerequisites
-
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
-- [gpt_both0.bin](https://timoxa0.su/share/nabu/manual/gpt_both0.bin)
-
-### Restore GPT
-> Replace ```<gpt_both0.bin>``` with the path to the gpt_both0.bin file.
+### Uninstall with lon-tool
 
 ```cmd
-fastboot flash partition:0 <gpt_both0.bin>
-```
-
-### Erase userdata to avoid bootloop and restore FS size
-```cmd
-fastboot -w
+lon-tool uninstall
 ```

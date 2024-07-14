@@ -7,7 +7,7 @@
 ### Prerequisites
 - Brain
   
-- [Rootfs image](https://timoxa0.su/?dir=share/nabu/images/v2)
+- [Rootfs image](https://timoxa0.su/?dir=share/nabu/images/v3)
 
 ### Notes:
 > [!Warning]\
@@ -21,7 +21,7 @@
 
 3. #### Flash image to device using deployer
 ```
-lon-deployer /path/to/rootfs.img
+lon-tool deploy /path/to/image.lni
 ```
 Deployer will ask you for username, password and linux partition size
 

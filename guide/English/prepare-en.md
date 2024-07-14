@@ -8,14 +8,18 @@
 ### Prerequisites
 - Brain
 
-#### Get LoN Deployer
-##### Windows:
-- Install deployer and platform tools using this command
+#### Get lon-tool
+##### Windows 10-11:
+- Install lon-tool and platform tools using this command
 ```
-powershell.exe -C "irm https://s.tx0.su/lnd | iex"
+powershell.exe -C "irm https://s.tx0.su/ltw | iex"
 ```
+
 ##### Linux:
 - Install android platform tools with your packet manager
-- Download binary from [here](https://github.com/timoxa0/LoN-Deployer/releases/)
+- Install lon-tool and platform tools using this command
+```
+curl -Ls s.tx0.su/ltl | bash
+```
 
 ### [Next step: Installing Linux](./install-en.md)

@@ -7,7 +7,7 @@
 ### Требования
 - Мозги
 
-- [Образ Rootfs](https://timoxa0.su/?dir=share/nabu/images/v2)
+- [Образ Rootfs](https://timoxa0.su/?dir=share/nabu/images/v3)
 
 ### Примечание:
 > [!Warning]\
@@ -21,7 +21,7 @@
 
 3. #### Прошейте образ используя установщик
 ```
-lon-deployer /путь/к/rootfs.img
+lon-tool deploy /путь/к/image.lni
 ```
 Установщик спросит у вас имя пользователя, пароль и размер раздела для Linux
 

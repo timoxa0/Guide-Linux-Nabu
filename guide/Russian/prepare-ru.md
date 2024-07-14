@@ -8,14 +8,18 @@
 ### Требования:
 - Мозги
 
-#### Установите LoN Deployer
-##### Windows:
-- Выполните эту команду для установки LoN Deployer, adb и fastboot
+#### Установите lon-tool
+##### Windows 10-11:
+- Выполните эту команду для установки lon-tool, adb и fastboot
 ```
-powershell.exe -C "irm https://s.tx0.su/lnd | iex"
+powershell.exe -C "irm https://s.tx0.su/ltw | iex"
 ```
+
 ##### Linux:
 - Установите adb и fastboot через пакетный менеджер вашего дистрибутива
-- Загрузите исполняемый файл [отсюда](https://github.com/timoxa0/LoN-Deployer/releases/)
+- Выполните эту команду для установки lon-tool
+```
+curl -Ls s.tx0.su/ltl | bash
+```
 
 ### [Следующий шаг: установка Linux](./install-ru.md)
