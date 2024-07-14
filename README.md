@@ -21,6 +21,10 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
+- [Project Chat](https://s.tx0.su/lonchat)
+
+- [Project Ru Chat](https://s.tx0.su/lonchatRU)
+
 - [Project Status](guide/English/status-en.md)
 
 - [Reinstallation](guide/English/reinstall-en.md)

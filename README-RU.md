@@ -21,6 +21,10 @@
 
 ## Разное
 
+- [Чат проекта (Англ)](https://s.tx0.su/lonchat)
+
+- [Чат проекта (Рус)](https://s.tx0.su/lonchatru)
+
 - [Статус Проекта](guide/Russian/status-ru.md)
 
 - [Переустановка](guide/Russian/reinstall-ru.md)
