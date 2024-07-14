@@ -23,7 +23,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Project Chat](https://s.tx0.su/lonchat)
 
-- [Project Ru Chat](https://s.tx0.su/lonchatRU)
+- [Project Ru Chat](https://s.tx0.su/lonchatru)
 
 - [Project Status](guide/English/status-en.md)
 
