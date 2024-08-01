@@ -16,8 +16,8 @@ powershell.exe -C "irm https://s.tx0.su/ltw | iex"
 ```
 
 ##### Linux:
-- Install android platform tools with your packet manager
-- Install lon-tool and platform tools using this command
+- Install android platform tools with your package manager
+- Install lon-tool using this command
 ```
 curl -Ls s.tx0.su/ltl | bash
 ```
