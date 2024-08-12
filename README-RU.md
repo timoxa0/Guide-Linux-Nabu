@@ -21,6 +21,8 @@
 
 ## Разное
 
+- [Канал с обновлениями](https://s.tx0.su/lonup)
+
 - [Чат проекта (Англ)](https://s.tx0.su/lonchat)
 
 - [Чат проекта (Рус)](https://s.tx0.su/lonchatru)
