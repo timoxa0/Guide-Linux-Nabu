@@ -18,7 +18,6 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Uninstallation](guide/English/uninstall-en.md)
 
-
 ## Miscellaneous
 
 - [Updates channel](https://s.tx0.su/lonup)
@@ -31,7 +30,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Reinstallation](guide/English/reinstall-en.md)
 
-- [Available distros](guide/English/distros-en.md)
+- [Dualboot using switch2linux](guide/English/linuxswitch-en.md)
+
+- [Available distros](https://timoxa0.su/?dir=share/nabu/images/latest/latest)
 
 
 ## Credits

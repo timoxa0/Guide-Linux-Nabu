@@ -13,6 +13,10 @@
 > [!Warning]\
 > All your data will be erased! Backup now if needed.
 
+> [!Note]\
+> If you want to use switch2linux to dualboot add -Q flag to lon-tool command\
+> After installation follow this [guide](./linuxswitch-en.md)
+
 ### Installation
 
 1. #### Download and extract rootfs image

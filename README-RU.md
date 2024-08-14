@@ -19,6 +19,7 @@
 
 - [Удаление](guide/Russian/uninstall-ru.md)
 
+
 ## Разное
 
 - [Канал с обновлениями](https://s.tx0.su/lonup)
@@ -31,8 +32,9 @@
 
 - [Переустановка](guide/Russian/reinstall-ru.md)
 
-- [Доступные дистрибутивы](guide/Russian/distros-ru.md)
+- [Дуалбут с использованием switch2linux](guide/English/linuxswitch-en.md)
 
+- [Доступные дистрибутивы](https://timoxa0.su/?dir=share/nabu/images/latest/latest)
 
 
 ## Благодарности
