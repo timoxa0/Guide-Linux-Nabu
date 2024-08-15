@@ -19,7 +19,7 @@
 
 ### Installation
 
-1. #### Download and extract rootfs image
+1. #### Download image
 
 2. #### Reboot device to bootloader
 
