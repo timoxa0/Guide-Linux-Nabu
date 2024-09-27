@@ -22,7 +22,7 @@ This project is in an early stage, all the files here have been contributed by o
 
 - [Updates channel](https://s.tx0.su/lonup)
 
-- [Project Chat](https://s.tx0.su/lonchatru)
+- [Project Chat](https://s.tx0.su/lonchat)
 
 - [Project Ru Chat](https://s.tx0.su/lonchatru)
 
