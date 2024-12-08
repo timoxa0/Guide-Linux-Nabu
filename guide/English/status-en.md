@@ -15,7 +15,7 @@ Stable. Some components don't work.
 - [x] Brightness
 - [x] Slow charging
 - [x] Fast charging (Fixed in latest kernel)
-- [x] Display
+- [x] Display (100Hz)
 - [x] GPU
 - [ ] HW video decoding/encodeing
 - [x] Touchscreen
