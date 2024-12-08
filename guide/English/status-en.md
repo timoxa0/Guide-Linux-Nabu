@@ -17,6 +17,7 @@ Stable. Some components don't work.
 - [x] Fast charging (Fixed in latest kernel)
 - [x] Display
 - [x] GPU
+- [ ] HW video decoding/encodeing
 - [x] Touchscreen
 - [x] UFS
 - [x] USB
