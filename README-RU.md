@@ -1,11 +1,15 @@
 <img align="right" src="./assets/nabu.png" width="425" alt="Linux Running On A Xiaomi Pad 5">
 
-
 # Запуск Linux на Xiaomi Pad 5
+
 ## Язык
+
 Русский | [English](README.md)
 
+## Lon-tool мертв! Используйте arch linux из чата или postmarket os.
+
 ## ⚠️ Предупреждение
+
 Мы не несем ответственности за сломанные устройства, отсутствующие разделы, плохих работников на линии производства Xiaomi, мёртвые карты памяти, мёртвые чипы управления питанием, мёртвую ОЗУ, мёртвые контроллеры экрана, мёртвые процессоры, мёртвых кошек и собак и ядерные войны.
 
 Установка Linux - опасный процесс, делайте это на свой страх и риск и осторожно следуйте инструкции.
@@ -15,10 +19,9 @@
 
 ## Начнём
 
-- [Установка](guide/Russian/prepare-ru.md)
+- [~~Установка~~](guide/Russian/prepare-ru.md)
 
 - [Удаление](guide/Russian/uninstall-ru.md)
-
 
 ## Разное
 
@@ -35,7 +38,6 @@
 - [Дуалбут с использованием switch2linux](guide/English/linuxswitch-en.md)
 
 - [Доступные дистрибутивы](https://timoxa0.su/?dir=share/nabu/images/latest/latest)
-
 
 ## Благодарности
 
